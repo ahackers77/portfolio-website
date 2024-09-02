@@ -1,0 +1,155 @@
+/* 
+
+font-family: 'Caveat Brush', cursive;
+font-family: 'Poppins', sans-serif;
+
+colours from xd
+black - 304345
+white - fffafa
+orange - ed5734
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Main*/
+
+body {
+  margin: 0;
+  background-color: #fffafa;
+  font-family: "Poppins", sans-serif;
+  color: #304345;
+}
+
+h1 {
+  font-family: "Caveat Brush", cursive;
+  font-size: 7.81rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+  z-index: 90;
+  text-transform: uppercase;
+  color: #304345;
+}
+
+h2 {
+}
+
+a {
+  color: #fffafa;
+}
+
+/*Header/ Nav Bar*/
+
+.flexbox-container {
+  background-color: #0d1213;
+  min-height: 55px;
+  position: fixed;
+  width: 100%;
+  border-bottom: #304345;
+  border-width: 2px;
+  border-style: none;
+  z-index: 999;
+}
+
+header {
+  color: #fffafa;
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  text-align: right;
+}
+
+.adam a {
+  text-align: left;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.adam a:hover {
+  text-align: left;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: #c9c3c3;
+}
+
+.head-button {
+  padding: 10px 10px;
+  border-style: none;
+  color: #fffafa;
+  margin-left: 15px;
+  font-size: 1.25rem;
+}
+
+.head-button:hover {
+  padding: 10px 10px;
+  border-style: none;
+  color: #c9c3c3;
+  margin-left: 15px;
+  font-size: 1.25rem;
+}
+
+/*Images*/
+
+.i1 {
+  height: 75%;
+  position: absolute;
+  top: 15%;
+  left: 33.5%;
+}
+
+.i2 {
+  height: 48%;
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+}
+
+.i3 {
+  height: 48%;
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+}
+.i4 {
+  height: 48%;
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+}
+
+/*Desktop/Global View*/
+
+/*Project Boxes*/
+
+.container {
+  background-color: aqua;
+  min-height: 500px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  background-color: rgb(255, 0, 43);
+  min-height: 200px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+/* Tablet View*/
+@media (max-width: 768px) {
+  .col {
+    width: 45%;
+  }
+}
