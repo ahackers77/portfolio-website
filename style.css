@@ -21,7 +21,7 @@ body {
   margin: 0;
   background-color: #fffafa;
   font-family: "Poppins", sans-serif;
-  color: #304345;
+  color: #36454F;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
   text-transform: uppercase;
   z-index: 90;
   text-transform: uppercase;
-  color: #304345;
+  color: #36454F;
 }
 
 a {
@@ -41,11 +41,11 @@ a {
 /*Header/ Nav Bar*/
 
 .flexbox-container {
-  background-color: #4682B4;
+  background-color: #36454F;
   min-height: 55px;
   position: fixed;
   width: 100%;
-  border-bottom: #4682B4;
+  border-bottom: #36454F;
   border-width: 2px;
   border-style: none;
   z-index: 999;
